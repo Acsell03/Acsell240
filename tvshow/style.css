@@ -1,0 +1,43 @@
+body{
+  font-family: 'PT Sans Narrow', sans-serif;
+  line-height: 1.2em;
+}
+
+#wrapper{
+  max-width: 1200px;
+  margin:0 auto; /* first value is for top/bottom, second value for left/right */
+  }
+
+  header{
+
+background:
+linear-gradient(90deg, rgba(238,37,208,0.984375) 14%, rgba(190,19,239,0.2596558988764045) 71%, rgba(255,255,255,0) 100%),
+url("girlfriends5.jpg") right top no-repeat;
+
+}
+
+p{
+  margin-bottom: 1em;
+}
+
+.lead{
+  color: #58015a;
+  width: 300px;
+}
+
+h1 img{
+  max-width: 100%;
+}
+
+header button{
+  background-color: #ee259e;
+  background-image: url("play_arrow-24px.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  border: none;
+  color:#fff;
+  padding:10px;
+  padding-left: 10px;
+  border-radius: 5px
+  text-transform: uppercase;
+}
