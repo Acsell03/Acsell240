@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,300&display=swap');
+
+body{
+font-family: 'NotoSerif', serif;
+font-weight: 300;
+background-color: #A775F8;
+max-width: 1200px; /* will be 1200px in viewports 1200px and up and 100% of screen size in viewports smaller than 1200px*/
+/*border-style: dotted;
+border-width: 3px;
+border-color: white;*/
+border: dotted 3px white;
+margin-top: 1rem;
+margin-left: auto;
+margin-right: auto;
+padding: 1rem;
+}
+
+h1, h2, h3 {
+  font-family: 'NotoSerif', serif;
+  font-weight: 600;
+  margin-bottom: 1rem; /* 1 erm is equal to the font size of the root element */
+  margin-top: 1rem;
+}
+
+
+img {
+  max-width: 100%;
+}
